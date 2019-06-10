@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-column-gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 197px;
+}
+
+.person {
+  height: 231px;
+  width: 200px;
+}
+
+.photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.rank {
+  display: block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: -120px;
+  left: 160px;
+  background: white;
+  border-radius: 16px;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 32px;
+  color: #8B0000;
+}
+
+.details {
+  position: relative;
+  top: -32px;
+  display: block;
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.extra {
+  display: none;
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+  .people {
+    grid-template-columns: 200px 200px;
+    margin-bottom: 155px;
+  }
+}
+
+.person:hover  {
+  height: 287px;
+  color: black;
+  background: #EEEEEE;
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+
+.person:hover .extra {
+  display: unset;
+  display: block;
+  margin-top: 10px;
+}
+
+.person:hover .photo img {
+  
+  border-radius: 10px;
+  transition-duration: 1s
+
+}
