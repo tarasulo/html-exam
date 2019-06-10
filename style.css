@@ -63,14 +63,14 @@ body {
 }
 
 .person:hover  {
-  height: 287px;
+  height: 257px;
   background: #EEEEEE;
 }
 
 .person:hover .extra {
   display: unset;
   display: block;
-  margin-top: 10px;
+  
 }
 
 .person:hover  {
