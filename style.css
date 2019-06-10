@@ -76,7 +76,7 @@ body {
 
 .person:hover .photo img {
   
-  border-radius: 10px;
-  transition-duration: 1s
+  border-radius: 60px;
+  transition-duration: 0,5s;
 
 }
