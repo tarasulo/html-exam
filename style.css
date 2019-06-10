@@ -15,7 +15,6 @@ body {
 .person {
   height: 231px;
   width: 200px;
-  transition-delay: 1s;
 }
 
 .photo img {
@@ -23,7 +22,7 @@ body {
   height: 200px;
   border-radius: 100px;
   
-  transition: transform 1s;
+  transition-delay: 1s;
 }
 
 .rank {
