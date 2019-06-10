@@ -15,12 +15,15 @@ body {
 .person {
   height: 231px;
   width: 200px;
+  transition-delay: 1s;
 }
 
 .photo img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
+  
+  transition: transform 1s;
 }
 
 .rank {
@@ -62,10 +65,7 @@ body {
 
 .person:hover  {
   height: 287px;
-  color: black;
   background: #EEEEEE;
-  border-radius: 10px;
-  transform: scale(1.05);
 }
 
 .person:hover .extra {
@@ -74,9 +74,12 @@ body {
   margin-top: 10px;
 }
 
-.person:hover .photo img {
-  
-  border-radius: 60px;
-  transition-duration: 0,5s;
+.person:hover  {
+  border-radius: 10px;
+  transform: scale(1.05);
+  color: black;
+}
 
+.person:hover .photo img {
+  border-radius: 60px;
 }
