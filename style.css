@@ -55,6 +55,16 @@ body {
   display: none;
 }
 
+.sport::after {
+  content: ",";
+}
+
+.pay::before {
+  content: "$";
+}
+.pay::after {
+  content: "M";
+}
 @media (min-width: 500px) and (max-width: 999px) {
   .people {
     grid-template-columns: 200px 200px;
