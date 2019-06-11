@@ -21,7 +21,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  
+  transition-duration: 0.5s;
   transition-delay: 1s;
 }
 
@@ -63,14 +63,15 @@ body {
 }
 
 .person:hover  {
-  height: 257px;
+  
   background: #EEEEEE;
 }
 
 .person:hover .extra {
   display: unset;
   display: block;
-  
+  background: #EEEEEE;
+  font-size: 18px;
 }
 
 .person:hover  {
